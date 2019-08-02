@@ -1,50 +1,17 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+## intent:ActualizacionDeDatos_NoSoy
+- Mi nombre no es ese
+- Yo no soy ese
+- como actualizo mis datos?
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:ActualizacionDeDatos_Actualizar
+- como puedo actualizar datos?
+- a través de que medio se pueden actualizar datos
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:Afiliaciones_Categoria
+- como consulto mi categoria
+- como valido mi categoria de validacion
+- que categoria soy
+- quiero saber cual es mi categoria de afiliacion
+- en que categoria estoy
+- quisiera saber cual es la categoria la cual fui asignado
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad

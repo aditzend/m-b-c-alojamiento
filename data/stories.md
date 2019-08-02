@@ -1,27 +1,8 @@
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+* ActualizacionDeDatos_NoSoy
+  - action_respond_ActualizacionDeDatos_Gracias
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm
-  - utter_happy
+* ActualizacionDeDatos_Actualizar
+  - action_respond_ActualizacionDeDatos_Como
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* deny
-  - utter_goodbye
-
-## say goodbye
-* goodbye
-  - utter_goodbye
+* Afiliaciones_Categoria
+  - action_respond_Afiliaciones_Categoria
