@@ -1,8 +1,17 @@
+## st1
 * ActualizacionDeDatos_NoSoy
-  - action_respond_ActualizacionDeDatos_Gracias
+  - utter_ActualizacionDeDatos_Gracias
 
+## st2
 * ActualizacionDeDatos_Actualizar
-  - action_respond_ActualizacionDeDatos_Como
+  - utter_ActualizacionDeDatos_Como
+
+## st3
+* Afiliaciones_Categoria
+  - utter_Afiliaciones_Categoria
+
+## New Story
 
 * Afiliaciones_Categoria
-  - action_respond_Afiliaciones_Categoria
+    - utter_Afiliaciones_Categoria
+* Gracias
