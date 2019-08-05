@@ -1,17 +1,22 @@
 ## st1
 * ActualizacionDeDatos_NoSoy
-  - utter_ActualizacionDeDatos_Gracias
+  - utter_Informa_ActualizacionDeDatos_Gracias
 
 ## st2
 * ActualizacionDeDatos_Actualizar
-  - utter_ActualizacionDeDatos_Como
+  - utter_Informa_ActualizacionDeDatos_Como
 
 ## st3
 * Afiliaciones_Categoria
-  - utter_Afiliaciones_Categoria
+  - utter_Informa_Afiliaciones_Categoria
 
-## New Story
+# hotel
+* Pide_Reserva
+    - utter_Pregunta_Reserva_Fecha
+* Informa_Reserva_Fecha{"reserva_fecha":"27"}
+    - slot{"reserva_fecha":"27"}
+    - utter_Pregunta_Reserva_Pax
+* Informa_Reserva_Pax{"reserva_pax":"4"}
+    - slot{"reserva_fecha":"4"}
+    - utter_Confirma_Reserva
 
-* Afiliaciones_Categoria
-    - utter_Afiliaciones_Categoria
-* Gracias

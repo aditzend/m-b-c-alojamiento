@@ -1,0 +1,4 @@
+env
+tracker.db
+rasa.db
+rasa_core.log

@@ -1,14 +1,16 @@
-## intent:ActualizacionDeDatos_Actualizar
+## intent:Consulta_ActualizacionDeDatos_Actualizar
 - como puedo actualizar datos?
 - a través de que medio se pueden actualizar datos
 
-## intent:ActualizacionDeDatos_NoSoy
+## intent:Consulta_ActualizacionDeDatos_NoSoy
 - Mi nombre no es ese
 - Yo no soy ese
 - como actualizo mis datos?
 - no soy yo
+- me estas confundiendo con una persona
+- yo no me llamo asi
 
-## intent:Afiliaciones_Categoria
+## intent:Consulta_Afiliaciones_Categoria
 - como consulto mi categoria
 - como valido mi categoria de validacion
 - que categoria soy
@@ -21,8 +23,32 @@
 - que categoria
 - que categoria soy?
 
-## intent:Gracias
+## intent:Dice_Gracias
 - gracias
-- muchas gracias
 - Gracias
-- muchisimas gracias
+- grcs
+- gr
+- =)
+- grasias
+
+## intent:Pide_Reserva
+- quiero reservar un hotel
+- quiero hacer una reserva
+- reservame por favor una habitacion
+
+## intent:Informa_Reserva_Fecha
+- para el [27](reserva_fecha) 
+- para el [viernes](reserva_fecha) 
+- [este fin de semana](reserva_fecha) 
+
+## intent:Informa_Reserva_Pax
+- vamos a ser [cuatro](reserva_pax:4)
+- podrias reservarme para los [cinco](reserva_pax:5)?
+- [1](reserva_pax)
+- [2](reserva_pax)
+- [3](reserva_pax)
+- [4](reserva_pax)
+- [5](reserva_pax)
+
+
+

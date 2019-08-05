@@ -1,17 +1,41 @@
 intents:
-- ActualizacionDeDatos_NoSoy
-- ActualizacionDeDatos_Actualizar
-- Afiliaciones_Categoria
+- Consulta_ActualizacionDeDatos_NoSoy
+- Consulta_ActualizacionDeDatos_Actualizar
+- Consulta_Afiliaciones_Categoria
+- Informa_Reserva_Fecha
+- Informa_Reserva_Pax
+- Dice_Gracias
+- Pide_Reserva
+
+entities:
+- reserva_fecha
+- reserva_pax
+
+slots:
+  reserva_fecha:
+    type: text
+  reserva_pax:
+    type: text
 
 actions:
-- utter_ActualizacionDeDatos_Gracias
-- utter_ActualizacionDeDatos_Como
-- utter_Afiliaciones_Categoria
+- utter_Informa_ActualizacionDeDatos_Gracias
+- utter_Informa_ActualizacionDeDatos_Como
+- utter_Informa_Afiliaciones_Categoria
+- utter_Pregunta_Reserva_Fecha
+- utter_Pregunta_Reserva_Pax
+- utter_Confirma_Reserva
 
 templates:
-  utter_ActualizacionDeDatos_Gracias:
+  utter_Informa_ActualizacionDeDatos_Gracias:
     - text: "Estimado usuario, gracias por tu respuesta, actualizaremos nuestra base de datos."
-  utter_ActualizacionDeDatos_Como:
+    - text: "Muchas gracias por tu respuesta, actualizaremos nuestra base de datos."
+  utter_Informa_ActualizacionDeDatos_Como:
     - text: "Ingresa aquí http://bit.ly/2OHEcs2 selecciona actualizar mis datos o documentos e ingresa al portal transaccional para radicar o actualizar toda tu información"
-  utter_Afiliaciones_Categoria:
+  utter_Informa_Afiliaciones_Categoria:
     - text: "Categoría A: Trabajadores cuyo salario básico no supere los 2 salarios mínimos legales mensuales vigentes. B: Trabajadores cuyo salario básico esté entre 2 y 4 salarios mínimos legales mensuales vigentes. C: Trabajadores cuyo salario básico supere los 4 salarios mínimos legales mensuales vigentes."
+  utter_Pregunta_Reserva_Fecha:
+    - text: "Para cuando quiere la reserva?"
+  utter_Pregunta_Reserva_Pax:
+    - text: "Cuantos van a ser?"
+  utter_Confirma_Reserva:
+    - text: "Reservo entonces para el dia : {reserva_fecha} pasajeros : {reserva_pax}"

@@ -1,7 +1,31 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
+##################################
+
+# paso 1
 language: en
 pipeline: supervised_embeddings
+##################################
+##################################
+
+# paso 2
+# language: de
+# pipeline: supervised_embeddings
+##################################
+# # # paso 3
+# pipeline: 
+# - name: "tokenizer_whitespace"
+# - name: "intent_entity_featurizer_regex"
+# - name: "ner_crf"
+# - name: "ner_synonyms"
+# - name: "intent_featurizer_count_vectors"
+# - name: "intent_classifier_tensorflow_embedding"
+#   intent_tokenization_flag: true
+#   intent_split_symbol: "+"
+# - name: "ner_duckling_http"
+#   url: "http://localhost:8888"
+#   locale: "ES_Nothing"
+#   dimensions: ["time"]
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
