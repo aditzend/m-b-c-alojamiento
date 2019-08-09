@@ -6,6 +6,7 @@ intents:
 - Informa_Reserva_Pax
 - Dice_Gracias
 - Pide_Reserva
+- Pide_Reiniciar
 
 entities:
 - reserva_fecha
@@ -24,6 +25,9 @@ actions:
 - utter_Pregunta_Reserva_Fecha
 - utter_Pregunta_Reserva_Pax
 - utter_Confirma_Reserva
+- action_check_hotel
+- action_echo
+- action_hello_world
 
 templates:
   utter_Informa_ActualizacionDeDatos_Gracias:

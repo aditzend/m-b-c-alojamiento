@@ -35,20 +35,33 @@
 - quiero reservar un hotel
 - quiero hacer una reserva
 - reservame por favor una habitacion
+- hotel
 
 ## intent:Informa_Reserva_Fecha
 - para el [27](reserva_fecha) 
 - para el [viernes](reserva_fecha) 
+- el [sabado](reserva_fecha) 
 - [este fin de semana](reserva_fecha) 
 
 ## intent:Informa_Reserva_Pax
 - vamos a ser [cuatro](reserva_pax:4)
+- vamos a ser [TRES](reserva_pax:4)
+- vamos a ser [mi esposo, mi hija y yo](reserva_pax:3)
 - podrias reservarme para los [cinco](reserva_pax:5)?
 - [1](reserva_pax)
 - [2](reserva_pax)
 - [3](reserva_pax)
 - [4](reserva_pax)
 - [5](reserva_pax)
+
+## intent:Pide_Reiniciar
+- empecemos de cero
+- no entendiste nada, vamos de nuevo
+- de cero
+- volver al inicio
+- volver a empezar
+
+
 
 
 
