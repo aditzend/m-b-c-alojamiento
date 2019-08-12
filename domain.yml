@@ -7,16 +7,38 @@ intents:
 - Dice_Gracias
 - Pide_Reserva
 - Pide_Reiniciar
+- Identificacion_Nro_Cedula
+- Decir_Codigo
 
-entities:
-- reserva_fecha
-- reserva_pax
 
 slots:
+  codigo:
+    type: text
+  nro_cedula:
+    type: text
   reserva_fecha:
     type: text
   reserva_pax:
     type: text
+  InteractionId:
+    type: text
+  UserName:
+    type: text
+  UserMail:
+    type: text
+  UserId:
+    type: text
+  MimeType:
+    type: text
+  Parameters:
+    type: text
+  user.name:
+    type: text
+  user.mail:
+    type: text
+  user.channel:
+    type: text
+  
 
 actions:
 - utter_Informa_ActualizacionDeDatos_Gracias
@@ -27,7 +49,10 @@ actions:
 - utter_Confirma_Reserva
 - action_check_hotel
 - action_echo
-- action_hello_world
+- action_parse_context
+- utter_Inicio_Saluda
+- utter_Confirma_Nro_Cedula
+- utter_Confirma_Codigo
 
 templates:
   utter_Informa_ActualizacionDeDatos_Gracias:
@@ -43,3 +68,10 @@ templates:
     - text: "Cuantos van a ser?"
   utter_Confirma_Reserva:
     - text: "Reservo entonces para el dia : {reserva_fecha} pasajeros : {reserva_pax}"
+  utter_Inicio_Saluda:
+    - text: "Hola {UserName}, como puedo ayudarle hoy? \n
+              Puedo ayudarle a efectuar reservas en Lagomar y Lagosol."
+  utter_Confirma_Nro_Cedula:
+    - text: "Su número de cédula es : {nro_cedula}"
+  utter_Confirma_Codigo:
+    - text: "Su número de codigo es : {codigo}"

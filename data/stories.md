@@ -1,6 +1,10 @@
+## start
+* bfi_start
+    - action_parse_context
+    - utter_Inicio_Saluda
+
 ## st1
 * ActualizacionDeDatos_NoSoy
-  - action_hello_world
   - utter_Informa_ActualizacionDeDatos_Gracias
 
 ## st2
@@ -25,3 +29,10 @@
 * Pide_Reiniciar
     - action_restart
 
+# da id
+* Identificacion_Nro_Cedula{"nro_cedula":"12345678"}
+    - utter_Confirma_Nro_Cedula
+
+# da un codigo
+* Decir_Codigo{"codigo":"123"}
+    - utter_Confirma_Codigo
