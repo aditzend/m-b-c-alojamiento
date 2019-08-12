@@ -85,6 +85,11 @@
 - \d{2}.\d{3}.\d{3}
 - \d{8}
 
+## intent:Decir_Celular
+- mi numero de contacto es [3013209089](nro_celular)
+- mi numero de celular es [3013209089](nro_celular)
+- mi numero de telefono es [3013209089](nro_celular)
+
 
 
 

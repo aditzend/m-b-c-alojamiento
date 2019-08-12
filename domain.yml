@@ -9,12 +9,15 @@ intents:
 - Pide_Reiniciar
 - Identificacion_Nro_Cedula
 - Decir_Codigo
+- Decir_Celular
 
 
 slots:
   codigo:
     type: text
   nro_cedula:
+    type: text
+  nro_celular:
     type: text
   reserva_fecha:
     type: text
@@ -53,6 +56,7 @@ actions:
 - utter_Inicio_Saluda
 - utter_Confirma_Nro_Cedula
 - utter_Confirma_Codigo
+- utter_Confirma_Nro_Celular
 
 templates:
   utter_Informa_ActualizacionDeDatos_Gracias:
@@ -75,3 +79,5 @@ templates:
     - text: "Su número de cédula es : {nro_cedula}"
   utter_Confirma_Codigo:
     - text: "Su número de codigo es : {codigo}"
+  utter_Confirma_Nro_Celular:
+    - text: "Su número de celular es : {nro_celular}"

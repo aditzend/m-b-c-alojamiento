@@ -36,3 +36,7 @@
 # da un codigo
 * Decir_Codigo{"codigo":"123"}
     - utter_Confirma_Codigo
+
+#da un celular
+* Decir_Celular{"nro_celular":"3013209089"}
+    - utter_Confirma_Nro_Celular
